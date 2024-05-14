@@ -8,9 +8,9 @@ namespace testPetProject2.Data
     {
         public DataContext(DbContextOptions<DataContext> options) : base(options) { }
 
-        public DbSet<Customer> customers { get; set; }
+        public DbSet<Customer> Customers { get; set; }
         public DbSet<Person> persons { get; set; }
 
-        public DbSet<Pricing> pricings { get; set; }
+        public DbSet<Pricing> Pricings { get; set; }
     }
 }

@@ -275,3 +275,8 @@ C:\Users\USER\source\repos\testPetProject2\testPetProject2\obj\Release\net6.0\re
 C:\Users\USER\source\repos\testPetProject2\testPetProject2\obj\Release\net6.0\testPetProject2.pdb
 C:\Users\USER\source\repos\testPetProject2\testPetProject2\obj\Release\net6.0\testPetProject2.genruntimeconfig.cache
 C:\Users\USER\source\repos\testPetProject2\testPetProject2\obj\Release\net6.0\ref\testPetProject2.dll
+C:\Users\USER\source\repos\testPetProject2\testPetProject2\obj\Release\net6.0\testPetProject2.sourcelink.json
+C:\Users\USER\source\repos\testPetProject2\testPetProject2\obj\Release\net6.0\scopedcss\Views\old\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\USER\source\repos\testPetProject2\testPetProject2\bin\Release\net6.0\Auth0.AspNetCore.Authentication.dll
+C:\Users\USER\source\repos\testPetProject2\testPetProject2\bin\Release\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\USER\source\repos\testPetProject2\testPetProject2\bin\Release\net6.0\Microsoft.IdentityModel.Abstractions.dll

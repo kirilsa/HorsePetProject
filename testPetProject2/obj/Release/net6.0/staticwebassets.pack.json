@@ -5,12 +5,56 @@
       "PackagePath": "staticwebassets\\testPetProject2.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\USER\\source\\repos\\testPetProject2\\testPetProject2\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "C:\\Users\\USER\\source\\repos\\testPetProject2\\testPetProject2\\wwwroot\\css\\AdminPricing.css",
+      "PackagePath": "staticwebassets\\css\\AdminPricing.css"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\testPetProject2\\testPetProject2\\wwwroot\\css\\ContactUs.css",
+      "PackagePath": "staticwebassets\\css\\ContactUs.css"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\testPetProject2\\testPetProject2\\wwwroot\\css\\Pricing.css",
+      "PackagePath": "staticwebassets\\css\\Pricing.css"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\testPetProject2\\testPetProject2\\wwwroot\\css\\images\\1-Background.png",
+      "PackagePath": "staticwebassets\\css\\images\\1-Background.png"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\testPetProject2\\testPetProject2\\wwwroot\\css\\mainPage.css",
+      "PackagePath": "staticwebassets\\css\\mainPage.css"
     },
     {
       "Id": "C:\\Users\\USER\\source\\repos\\testPetProject2\\testPetProject2\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\testPetProject2\\testPetProject2\\wwwroot\\images\\1-Horse'sFace.png",
+      "PackagePath": "staticwebassets\\images\\1-Horse'sFace.png"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\testPetProject2\\testPetProject2\\wwwroot\\images\\5296499_fb_facebook_facebook logo_icon.png",
+      "PackagePath": "staticwebassets\\images\\5296499_fb_facebook_facebook logo_icon.png"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\testPetProject2\\testPetProject2\\wwwroot\\images\\5296501_linkedin_network_linkedin logo_icon.png",
+      "PackagePath": "staticwebassets\\images\\5296501_linkedin_network_linkedin logo_icon.png"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\testPetProject2\\testPetProject2\\wwwroot\\images\\5296516_tweet_twitter_twitter logo_icon.svg",
+      "PackagePath": "staticwebassets\\images\\5296516_tweet_twitter_twitter logo_icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\testPetProject2\\testPetProject2\\wwwroot\\images\\5296520_bubble_chat_mobile_whatsapp_whatsapp logo_icon.png",
+      "PackagePath": "staticwebassets\\images\\5296520_bubble_chat_mobile_whatsapp_whatsapp logo_icon.png"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\testPetProject2\\testPetProject2\\wwwroot\\images\\exit.svg",
+      "PackagePath": "staticwebassets\\images\\exit.svg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\testPetProject2\\testPetProject2\\wwwroot\\images\\menu.svg",
+      "PackagePath": "staticwebassets\\images\\menu.svg"
     },
     {
       "Id": "C:\\Users\\USER\\source\\repos\\testPetProject2\\testPetProject2\\wwwroot\\js\\site.js",

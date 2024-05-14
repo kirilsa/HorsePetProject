@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("testPetProject2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c1029498d8815a98c4414d9dcebb2233f57233b")]
 [assembly: System.Reflection.AssemblyProductAttribute("testPetProject2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("testPetProject2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

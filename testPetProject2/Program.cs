@@ -1,3 +1,4 @@
+using Auth0.AspNetCore.Authentication;
 using Microsoft.EntityFrameworkCore;
 using testPetProject2.Data;
 
@@ -10,6 +11,14 @@ builder.Services.AddDbContext<DataContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
+//Authentication
+builder.Services
+    .AddAuth0WebAppAuthentication(options =>
+    {
+        options.Domain = builder.Configuration["Auth0:Domain"];
+        options.ClientId = builder.Configuration["Auth0:ClientId"];
+    });
 
 var app = builder.Build();
 
@@ -26,6 +35,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

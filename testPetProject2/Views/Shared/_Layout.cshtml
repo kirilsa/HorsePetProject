@@ -5,41 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - testPetProject2</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/testPetProject2.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/mainPage.css" asp-append-version="true" />
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">testPetProject2</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
+        <div class="navbar">
+            <div class="container">
+                <a class="logo" asp-area="" asp-controller="Home" asp-action="Index" >Remember<span>That</span></a>
+
+                <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation">
+
+                <nav>
+                    <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close Navigation">
+
+                    <ul class="primary-nav">
+                        <li class="current"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Pricing">Pricing</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="ContactUs">ContactUs</a></li>
+
                     </ul>
-                </div>
+
+                    <ul class="secondary-nav">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li><a class="nav-link text-white" asp-area="" asp-controller="Account" asp-action="Logout">Logout from Admin</a></li>
+                            <li><a class="nav-link text-white" asp-controller="AdminPricings" asp-action="Index">Admin Access</a></li>
+                        }
+                        else
+                        {
+                            <li><a class="nav-link text-white" asp-area="" asp-controller="Account" asp-action="Login">Login to Admin</a></li>
+                        }
+@*                         <li class="go-premium-cta"><a href="#">Your Requests</a></li>
+ *@                    </ul>
+                </nav>
             </div>
-        </nav>
+        </div>
     </header>
     <div class="container">
-        <main role="main" class="pb-3">
+        <main role="main">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <div class="endOfPage">
         <div class="container">
-            &copy; 2024 - testPetProject2 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <h3 class="aboutMe">About Me</h3>
+
+            <p class="desAbout">Powered by C#, HTML, and CSS, the site leverages the robust capabilities of .NET 6.0 and ASP.NET Core MVC for a robust and scalable backend. With the efficiency of Entity Framework, data management becomes a breeze. The user interface is polished using Bootstrap, ensuring a responsive and visually appealing design.</p>
+
+            <div class="socialMedia">
+                <a href="https://www.facebook.com/KirilSolominskiy">
+                    <img src="~/images/5296499_fb_facebook_facebook logo_icon.png" alt="Facebook link">
+                </a>
+                <a href="#">
+                    <img src="~/images/5296516_tweet_twitter_twitter logo_icon.svg" alt="Twitter link">
+                </a>
+                <a href="https://wa.me/+380997170929">
+                    <img src="~/images/5296520_bubble_chat_mobile_whatsapp_whatsapp logo_icon.png" alt="WhatsApp link">
+                </a>
+                <a href="www.linkedin.com/in/kyryl-solominskyi-47586b291">
+                    <img src="~/images/5296501_linkedin_network_linkedin logo_icon.png" alt="LinkedIn link">
+                </a>
+            </div>
+
+            <p class="madeBy">This website is proudly crafted by Kyryl Solominskyi</p>
         </div>
+    </div>
+
+    @* <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2023 - testPetProject2 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div> *@
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

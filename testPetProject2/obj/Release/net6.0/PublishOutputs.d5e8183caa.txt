@@ -4,9 +4,11 @@ C:\Users\USER\source\repos\testPetProject2\testPetProject2\obj\Release\net6.0\Pu
 C:\Users\USER\source\repos\testPetProject2\testPetProject2\obj\Release\net6.0\PubTmp\Out\testPetProject2.dll
 C:\Users\USER\source\repos\testPetProject2\testPetProject2\obj\Release\net6.0\PubTmp\Out\testPetProject2.runtimeconfig.json
 C:\Users\USER\source\repos\testPetProject2\testPetProject2\obj\Release\net6.0\PubTmp\Out\testPetProject2.pdb
+C:\Users\USER\source\repos\testPetProject2\testPetProject2\obj\Release\net6.0\PubTmp\Out\Auth0.AspNetCore.Authentication.dll
 C:\Users\USER\source\repos\testPetProject2\testPetProject2\obj\Release\net6.0\PubTmp\Out\Humanizer.dll
 C:\Users\USER\source\repos\testPetProject2\testPetProject2\obj\Release\net6.0\PubTmp\Out\MessagePack.dll
 C:\Users\USER\source\repos\testPetProject2\testPetProject2\obj\Release\net6.0\PubTmp\Out\MessagePack.Annotations.dll
+C:\Users\USER\source\repos\testPetProject2\testPetProject2\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 C:\Users\USER\source\repos\testPetProject2\testPetProject2\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\USER\source\repos\testPetProject2\testPetProject2\obj\Release\net6.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\USER\source\repos\testPetProject2\testPetProject2\obj\Release\net6.0\PubTmp\Out\Microsoft.Build.dll
@@ -33,6 +35,7 @@ C:\Users\USER\source\repos\testPetProject2\testPetProject2\obj\Release\net6.0\Pu
 C:\Users\USER\source\repos\testPetProject2\testPetProject2\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\USER\source\repos\testPetProject2\testPetProject2\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.DependencyModel.dll
 C:\Users\USER\source\repos\testPetProject2\testPetProject2\obj\Release\net6.0\PubTmp\Out\Microsoft.Identity.Client.dll
+C:\Users\USER\source\repos\testPetProject2\testPetProject2\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Abstractions.dll
 C:\Users\USER\source\repos\testPetProject2\testPetProject2\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\USER\source\repos\testPetProject2\testPetProject2\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Logging.dll
 C:\Users\USER\source\repos\testPetProject2\testPetProject2\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Protocols.dll
