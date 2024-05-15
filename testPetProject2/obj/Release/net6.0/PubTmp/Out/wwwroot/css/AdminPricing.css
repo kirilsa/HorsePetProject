@@ -1,0 +1,37 @@
+﻿.table{
+    color: white;
+}
+
+h1{
+    text-align:center;
+    margin-bottom: 20px;
+}
+
+.container{
+    padding: 15px;
+}
+
+.tableBTN {
+    width: 75px;
+}
+
+.btn {
+    margin: 0 5px;
+}
+
+.admin {
+    text-align: center;
+    justify-content: center;
+    padding: 20px 10px;
+}
+.admin-btn {
+    margin: 0 10px;
+    font-weight: 800;
+    border: 1px solid;
+    border-radius: 0.25rem;
+    padding: 0.375rem .75rem;
+    font-size: 2rem;
+    color: white;
+    background-color: cadetblue;
+    text-decoration: none;
+}

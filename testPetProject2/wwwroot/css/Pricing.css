@@ -1,0 +1,160 @@
+﻿/*body{
+    color: white;
+}
+
+.container{
+    padding: 15px;
+}
+
+h1{
+    text-align: center;
+}
+
+table {
+    padding: 0.5rem 0;
+    color: white;
+    width: 100%;
+}
+
+tbody {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+.price-box {
+    border: 2px solid #E2C296;
+    display: grid;
+    flex-direction: column;
+    border-radius: 8px;
+    margin: 10px;
+    font-size: 25px;
+    width: 25%;
+}
+
+    .price-box:hover {
+        box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+    }
+
+.first, .second{
+    border-bottom: 2px solid #E2C296;
+}
+
+.first {
+    border-radius: 5px;
+}
+
+td {
+    padding: 0.5rem 0;
+    min-width: 145px;
+}
+
+.btn-details {
+background-color: darkslateblue;
+border: none;
+border-radius: 8px;
+color: white;
+padding: 10px 25px;
+text-align: center;
+text-decoration: none;
+font-size: 18px;
+}
+
+.responsive-table {
+    overflow-x: auto;
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 500px;
+        padding: 0;
+    }
+
+    table {
+        padding: 0;
+    }
+
+    .responsive-table {
+        max-width: 500px;
+    }
+}*/
+
+
+/* Reset margin and padding for all elements */
+
+    /*Pricing page*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2{
+    border-bottom: 2px, solid, #E2C296;
+}
+
+p::before {
+    content: "•";
+    margin-right: 5px;
+}
+
+.price {
+    border-bottom: 2px solid #E2C296;
+    padding-bottom: 5px;
+}
+
+/* Pricing container setup */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px; /* adds space between cards */
+}
+
+.price-box {
+    border: 2px solid #E2C296;
+    padding: 20px;
+    margin-bottom: 20px; /* ensures space between rows */
+    width: 30%; /* Ensures three boxes fit within the container's width */
+    text-align: center;
+}
+
+    .price-box h2, .price-box p {
+        margin-bottom: 15px; /* Spacing between elements within the card */
+    }
+
+.btn {
+    margin: 6px 6px;
+    border-color: #e2ac34;
+    background-color: #e2ac34;
+    border-radius: 0.25rem;
+    color: black;
+    text-decoration-color rgb(128, 128, 128)
+}
+
+    .btn:hover {
+        background-color: #67b646;
+    }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .price-box {
+        width: 45%; /* Adjusts to 2 cards per row on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .price-box {
+        width: 100%; /* Stacks cards vertically on very small screens */
+    }
+}
+
+    /*Pricing details page*/

@@ -1,0 +1,61 @@
+﻿<link rel="stylesheet" href="~/css/AdminPricing.css" asp-append-version="true" />
+
+@model IEnumerable<testPetProject2.Models.Pricing>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Manage pricing page</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NameOfService)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LengthOfSession)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ListOfIncluded)
+            </th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NameOfService)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LengthOfSession)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ListOfIncluded)
+                </td>
+                <td class="tableBTN">
+                    <a class="btn btn-info" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                </td>
+                <td class="tableBTN">
+                    <form asp-action="Delete" method="post" asp-route-id="@item.Id">
+                        <input type="submit" value="Delete" class="btn btn-danger" />
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p>
+    <a class="btn btn-primary" asp-action="CreatePrice">Create New</a>
+</p>

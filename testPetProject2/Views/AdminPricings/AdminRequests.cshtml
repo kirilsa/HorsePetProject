@@ -1,0 +1,54 @@
+﻿<link rel="stylesheet" href="~/css/AdminPricing.css" asp-append-version="true" />
+
+@model IEnumerable<testPetProject2.Models.Customer>
+
+@{
+    ViewData["Title"] = "AdminRequests";
+}
+
+<h1>Admin Requests</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Message)
+            </th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Message)
+            </td>
+                <td class="tableBTN">
+                <a class="btn btn-info" asp-controller="AdminPricings" asp-action="CustomerDetails" asp-route-id="@item.CustomerId">Details</a>
+            </td>
+            <td class="tableBTN">
+                <form asp-controller="Customers" asp-action="Delete" method="post" asp-route-id="@item.CustomerId">
+                    <input type="submit" value="Delete" class="btn btn-danger" />
+                </form>
+            </td>
+            
+        </tr>
+}
+    </tbody>
+</table>
+
+
+

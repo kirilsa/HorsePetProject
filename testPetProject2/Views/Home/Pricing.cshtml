@@ -1,0 +1,24 @@
+﻿<link rel="stylesheet" href="~/css/Pricing.css" asp-append-version="true" />
+
+@model IEnumerable<testPetProject2.Models.Pricing>
+
+@{
+    ViewData["Title"] = "Pricing";
+}
+
+<h1>Check out our services, we can provide excellent service</h1>
+
+<section>
+    <div class="container">
+        @foreach (var item in Model)
+        {
+            <div class="price-box">
+                <h2>@Html.DisplayFor(modelItem => item.NameOfService)</h2>
+                <p class="price">Price: @Html.DisplayFor(modelItem => item.Price)£</p>
+                <p class="price">Time: @Html.DisplayFor(modelItem => item.LengthOfSession)h</p>
+                <p class="price">Description: @Html.DisplayFor(modelItem => item.ListOfIncluded)</p>
+                <a class="btn btn-back" asp-action="PricingDetails" asp-route-id="@item.Id">Details</a>
+            </div>
+        }
+    </div>
+</section>
